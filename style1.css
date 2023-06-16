@@ -1,0 +1,168 @@
+
+    
+.part1{
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 30%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+    text-align: center;
+    
+}
+.men{
+    border-radius: 15%;
+    margin-left: 25px;
+    width: 156px;
+    height: 156px;
+}
+.info{
+   position: absolute;
+   display: flex;
+   top: 43%;
+   margin-right: -50%;
+   transform: translate(-50%, 50%);
+   text-align: center;
+   left: 50%;
+   gap: 10px;
+
+
+   
+
+}
+.inf1{
+background: #E5E5E5;
+border-radius: 12px;
+width: 100px;
+height: 67px;
+padding: 13px;
+line-height: 10px;
+}
+.inf2{
+background: #E5E5E5;
+border-radius: 12px;
+width: 100px;
+height: 67px;
+padding: 13px;
+line-height: 10px;
+}
+.inf3{
+background: #E5E5E5;
+border-radius: 12px;
+width: 100px;
+height: 67px;
+padding: 13px;
+line-height: 5px;
+}
+.h2,h3,h4{
+    font-size: 18px;
+}
+.p2,p3,p4{
+    font-size: 14px;
+}
+
+.part2{
+    position: absolute;
+    top: 70%;
+}
+
+.part3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+
+
+}
+.picture1{
+    grid-column: 1/1;
+    
+    
+}
+.picture2{
+    grid-column: 2/-1;
+}
+.picture3{
+    grid-column: 1/3;
+    
+}
+.picture4{
+    grid-column: 1/1;
+
+}
+.picture5{
+    grid-column: 2/2;
+    
+  
+}
+.picture6{
+    grid-column: 3/-1;
+    grid-row: 2/4;
+    
+}
+
+.part2{
+    width:70%;
+    left: 15%;
+    
+    
+    
+}
+
+
+img{
+    width: 100%;
+    border-radius: 12px;
+}
+footer{
+
+   position: absolute;
+
+   left: 35%;
+   margin-top: 130%;
+    
+}
+@media(max-width:800px){
+    .part1{
+        margin-top: -10%;
+    }
+   
+   footer{
+     bottom: -10%;
+     left: 15%;
+   } 
+   .info{
+   width:80%;
+   left:50%;
+   top:30%
+   
+
+   }
+   .inf1{
+    padding:5px;
+    width:200px;
+   }
+   .inf2{
+    padding:5px;
+    width:200px;
+   }
+    .inf3{
+    padding:5px;
+    width:200px;
+   }
+   .h2,h3,h4{
+    font-size: 16px;
+   }
+   .h5{
+    font-size: 19;
+   }
+   
+   .part2{
+    top:50%;
+    width: 95%;
+    left:3%
+
+   }
+}
